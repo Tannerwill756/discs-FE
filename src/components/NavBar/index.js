@@ -1,7 +1,7 @@
 import React from 'react'
 import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from './NavbarElements'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>                
@@ -9,17 +9,17 @@ const Navbar = () => {
                     <h1>logo</h1>
                 </NavLink>
 
-                <Bars />
+                <Bars onClick={toggle}/>
 
                 <NavMenu>
-                    <NavLink to="/about" activeStyle>
-                        about
+                    <NavLink to="/discs" activeStyle>
+                        Discs
                     </NavLink>
-                    <NavLink to="/services" activeStyle>
-                        services
+                    <NavLink to="/gear" activeStyle>
+                        Gear
                     </NavLink>
-                    <NavLink to="/contact" activeStyle>
-                        contact us
+                    <NavLink to="/guides" activeStyle>
+                        Guides
                     </NavLink>
                     <NavLink to="/sign-up" activeStyle>
                         sign up

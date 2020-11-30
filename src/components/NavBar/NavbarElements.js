@@ -11,13 +11,6 @@ export const Nav = styled.nav`
     z-index: 10;
 `
 
-// export const SetWidth = styled.div`
-//     max-width: 2500px;
-//     display:flex;
-//     justify-content: space-between;
-//     padding: 0.5rem (calc(100vw - 1000px) / 2 );
-// `
-
 export const NavLink = styled(Link)`
     color:#fff;
     display:flex;
@@ -28,7 +21,7 @@ export const NavLink = styled(Link)`
     cursor: pointer;
 
     &.active {
-        color: #15cdfc;
+        color: #01bf71;
     }
 `
 
@@ -69,7 +62,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
     border-radius:4px;
-    background-color: #256ce1;
+    background-color: #01bf71;
     padding: 10px 22px;
     color: #fff;
     border:none;
