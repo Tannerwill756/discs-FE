@@ -12,16 +12,16 @@ const Navbar = ({toggle}) => {
                 <Bars onClick={toggle}/>
 
                 <NavMenu>
-                    <NavLink to="/discs" activeStyle>
+                    <NavLink to="/discs" activestyle={NavLink ? 1 : 0}>
                         Discs
                     </NavLink>
-                    <NavLink to="/gear" activeStyle>
+                    <NavLink to="/gear" activestyle ={NavLink ? 1 : 0}>
                         Gear
                     </NavLink>
-                    <NavLink to="/guides" activeStyle>
+                    <NavLink to="/guides" activestyle={NavLink ? 1 : 0}>
                         Guides
                     </NavLink>
-                    <NavLink to="/sign-up" activeStyle>
+                    <NavLink to="/sign-up" activestyle={NavLink ? 1 : 0}>
                         sign up
                     </NavLink>
 

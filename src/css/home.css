@@ -1,0 +1,56 @@
+.homeHeader {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/homeHeader.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.homeHeader h1 {
+  font-size: 3rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 1%;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .homeHeader h1 {
+    display: none;
+  }
+}
+
+.homeHeader .linkContainer {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .homeHeader .linkContainer {
+    margin-top: 0rem;
+  }
+}
+
+.homeHeader .linkContainer .headerLinks {
+  border-radius: 4px;
+  background-color: #01bf71;
+  padding: 10px 22px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+.homeHeader .linkContainer .headerLinks:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #010606;
+}
+/*# sourceMappingURL=home.css.map */

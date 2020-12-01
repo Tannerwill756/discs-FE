@@ -7,17 +7,22 @@ const Sidebar = ({isOpen, toggle}) => {
             <Icon>
                 <CloseIcon onClick={toggle}/>
             </Icon>
+            
             <SidebarWrapper>
                 <SidebarMenu>
+
                     <SidebarLink to="discs" onClick={toggle}>
                         Discs
                     </SidebarLink>
+
                     <SidebarLink to="gear" onClick={toggle}>
                         Gear
                     </SidebarLink>
+
                     <SidebarLink to="guides" onClick={toggle}>
                         Guides
                     </SidebarLink>
+
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>
