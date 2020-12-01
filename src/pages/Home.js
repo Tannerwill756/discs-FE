@@ -9,17 +9,19 @@ function Home() {
                 <h1>Unlock your potential</h1>
 
                 <div className="linkContainer">
-                    <Link to="discs" className="headerLinks">Shop Discs</Link> 
+                    <Link to="discs" className="headerLinks">Shop Discs</Link>
                     <Link to="guides" className="headerLinks">View Guides</Link>
                 </div>
-                
+
             </header>
 
             <div className="topPicks">
-
+                <div>
+                    picture here
+                </div>
             </div>
-            
-            
+
+
         </div>
     )
 }
